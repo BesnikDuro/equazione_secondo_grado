@@ -10,6 +10,7 @@ int main()
 {
 	float a, b, c, delta;
 	float x, x1, x2;
+	printf("\n\n");
 
 	printf("\tinserisci il primo coficiente a: ");
 	scanf("%f", &a);
@@ -17,6 +18,9 @@ int main()
 	scanf("%f", &b);
 	
 	if ( c != 0 ) {
+
+
+
 		printf("\tinserisci il terzo coficiente c: ");
 		scanf("%f", &c);
 		}	
@@ -41,12 +45,12 @@ int main()
 		
 			delta = (b * b - 4 * a * c);
 			if (delta <=0)
-				printf("\tdelta e' = %f \tnon ci sono radici ", delta);	
+				printf("\tdelta e' = %f \tnon ci sono radici \n", delta);	
 		else
 			if (delta != 0){
 				x1 = -(b + sqrt(b * b - 4 * a * c)) / (2 * a);
 				x2 = -(b - sqrt(b * b - 4 * a * c)) / (2 * a);
-				printf("\til risultato e’ x1 = %f, x2 = %f\n", x1, x2);
+				printf("\til risultato e’ x1 = %f, x2 = %f\n\n\n", x1, x2);
 			}
 			
 		}
