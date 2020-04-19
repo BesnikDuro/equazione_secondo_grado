@@ -18,9 +18,6 @@ int main()
 	scanf("%f", &b);
 	
 	if ( c != 0 ) {
-
-
-
 		printf("\tinserisci il terzo coficiente c: ");
 		scanf("%f", &c);
 		}	
@@ -30,7 +27,6 @@ int main()
 		if( c == 0 )
 			{
 			c = 0;
-			//printf(" Inserisci valore 0 al cofficiente c\n");
 			(x*x + b*x) == 0;
 			x1 = 0;
 			x2 = -( b/a);
@@ -54,6 +50,5 @@ int main()
 			}
 			
 		}
-
 return 0;
 }
