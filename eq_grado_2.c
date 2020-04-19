@@ -1,6 +1,6 @@
 /*
-    Zgjidhja e nje ekuazione tipik te grades se dyte i cili ka formen ax2 + bx + c = 0
-    Duhet me pas parasysh dhe controlluar qe a te jete e ndryshme nga 0
+	Zgjidhja e nje ekuazioni te grades se dyte i formes: ax2 + bx + c = 0,
+	duke kontrolluar situata te ndryshme te vlerave te coficientave.
 */
 
 #include <stdio.h>
@@ -10,7 +10,6 @@ int main()
 {
 	float a, b, c, delta;
 	float x, x1, x2;
-	printf("\n");	
 
 	printf("\tinserisci il primo coficiente a: ");
 	scanf("%f", &a);
